@@ -1,14 +1,17 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    theme: {
+    extend: {
+      fontFamily: {
+        'roboto': ["'Roboto', 'sans-serif'"]
+      },
       container: {
         padding: {
-          DEFAULT: '1rem',
-          sm: '2rem',
-          lg: '4rem',
-          xl: '5rem',
-          '2xl': '6rem',
+          DEFAULT: "1rem",
+          sm: "2rem",
+          lg: "4rem",
+          xl: "5rem",
+          "2xl": "6rem",
         },
       },
     },
@@ -18,9 +21,7 @@ module.exports = {
 
   daisyui: {
     styled: true,
-    themes: [
-      "valentine", "cupcake"
-    ],
+    themes: ["valentine", "cupcake"],
     base: true,
     utils: true,
     logs: true,

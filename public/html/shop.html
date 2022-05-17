@@ -6,15 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.15.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Koulen&family=Oswald:wght@200;400;700&family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400&display=swap"
+        rel="stylesheet">
     <link href="/dist/output.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="font-roboto">
 
     <div class="navbar bg-base-100">
         <div class="flex-1">
-            <a class="btn btn-ghost normal-case text-xl mb-3"><img src="images/heart (8).png" width="60px" height="60px"></a>
+            <a class="btn btn-ghost normal-case text-xl mb-3"><img src="images/heart (8).png" width="60px"
+                    height="60px"></a>
         </div>
         <div class="flex-none">
             <ul class="menu menu-horizontal p-0">
@@ -28,6 +33,71 @@
         </div>
     </div>
 
+    <h1 class="text-3xl text-base-300 text-center">Prints</h1>
+    <div class="container max-w-screen-lg mx-auto pb-10 text-primary mt-7">
+        <div class="card lg:card-side bg-base-100 shadow-xl mb-5">
+            <figure><img src="images/Swimming.png" alt="illustration"></figure>
+            <div class="card-body">
+                <h2 class="card-title">Swimming</h2>
+                <div class="card-actions justify-center">
+                    <button class="btn btn-primary buyNow">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card lg:card-side bg-base-100 shadow-xl mb-5">
+            <figure><img src="images/Feral.png" class="object-contain" alt="Album"></figure>
+            <div class="card-body">
+                <h2 class="card-title">Feral</h2>
+                <div class="card-actions justify-center">
+                    <button class="btn btn-primary buyNow">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card lg:card-side bg-base-100 shadow-xl mb-5">
+            <figure><img src="images/Temper.png" alt="Album"></figure>
+            <div class="card-body">
+                <h2 class="card-title">Be Careful, She's Got a Temper</h2>
+                <div class="card-actions justify-center">
+                    <button class="btn btn-primary buyNow">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card lg:card-side bg-base-100 shadow-xl mb-5">
+            <figure><img src="images/Devil3.png" alt="Album"></figure>
+            <div class="card-body">
+                <h2 class="card-title">Good Girl</h2>
+                <div class="card-actions justify-center">
+                    <button class="btn btn-primary buyNow">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card lg:card-side bg-base-100 shadow-xl mb-5">
+            <figure><img src="images/Devils-Disco-Top.png" alt="Album"></figure>
+            <div class="card-body">
+                <h2 class="card-title">The Devils Disco</h2>
+                <p>**Animation Under Construction</p>
+                <div class="card-actions justify-center">
+                    <button class="btn btn-primary buyNow">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card lg:card-side bg-base-100 shadow-xl mb-5">
+            <figure><img src="images/Devils-Disco-Bottom.png" alt="Album"></figure>
+            <div class="card-body">
+                <h2 class="card-title">The Devils Disco</h2>
+                <p>**Animation Under Construction</p>
+                <div class="card-actions justify-center">
+                    <button class="btn btn-primary buyNow">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
         <div class="grid grid-flow-col gap-4">
@@ -47,13 +117,16 @@
                         height="50px"></a>
             </div>
             <div class="flex-1">
-                <a class="btn btn-ghost normal-case text-xl mt-4 mb-2"><img src="images/heart (9).png" width="60px" height="60px"></a>
+                <a class="btn btn-ghost normal-case text-xl mt-4 mb-2"><img src="images/heart (9).png" width="60px"
+                        height="60px"></a>
             </div>
         </div>
         <div>
             <p>Copyright © 2022 - Made With Sugar Spice and Everything Nice</p>
         </div>
     </footer>
+
+    <script src="js/index.js"></script>
 </body>
 
 </html>
