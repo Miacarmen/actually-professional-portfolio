@@ -42,6 +42,7 @@ Portfolio showcasing my graphic design and illustration work, as well as web app
 This application was created by **Mia Carmen** 
 
 - [Link to Github](https://github.com/Miacarmen)
+- [Link to LinkedIn](https://www.linkedin.com/in/mia-carmen-7750a6b8/)
 
 
 ## License
